@@ -37,7 +37,7 @@ h4{
 width: 40px;
 }
 .header-icon a:hover{
-	background-color: #2ecc71;
+	background-color: #33cc66;
 }
 h3 {
 	font-weight: bold;
@@ -58,6 +58,16 @@ h2{
 	background-color: #e3e3e3;
 	padding-top: 55px;
 	padding-bottom: 65px;
+}
+#email-input input{
+	border-bottom-left-radius: 1rem;
+	border-top-left-radius:1rem;
+}
+#email-input button, #email-input button:hover{
+	border-bottom-right-radius: 1rem;
+	border-top-right-radius:1rem;
+	background-color: #33cc66;
+	color: #FFF;
 }
 div iframe{
 	border-radius: 15px;
@@ -91,7 +101,7 @@ padding: 60px 0;
 }
 #social-media li a:hover{
 	style: none;
-	background-color: #62d995;
+	background-color: #33cc66;
 	color:#fff;
 }
 .social-icons{
@@ -99,10 +109,12 @@ padding: 60px 0;
 	font-size: 30px;
 	border-radius: 100%;
 	background: #848484;
-
 }
 li a i{
 	width: 35px;
+}
+#peopleImg{
+	margin: 0 auto;
 }
 
 @media (max-width: 960px) {

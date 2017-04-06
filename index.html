@@ -68,9 +68,13 @@
 					<h3>Get Notified Of Any Updates</h3>
 					<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque quas, molestias earum tempore ex pariatur hic tempora vitae expedita, deserunt voluptatem. Laudantium laboriosam nisi eius consequatur quibusdam unde laborum at.molestias earum tempore ex pariatur hic tempora vitae expedita, deserunt voluptatem. Laudantium laboriosam nisi eius consequatur quibusdam unde laborum at.</p>
 
-					<form class="form form-inline" action="something.php">
-						<input type="text" class="form-control" placeholder="Email Address">
-						<button class="form-control btn btn-success">Notify</button>
+					<form class="form form-inline input-group" action="something.php">
+						<div class="input-group input-group-lg" id="email-input">
+							<input type="text" class="form-control" placeholder="Email Address">
+							 <span class="input-group-btn" id="notify-email">
+							 	<button role="button" class="btn">Notify</button>
+							 </span>
+						</div>
 					</form>
 
 				</div>
@@ -86,9 +90,12 @@
 
 
 	<section class="section-four text-center">
-		<blockquote class="blockquote">&quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque cumque natus repellat rem sequi aspernatur. Sequi libero minima, molestias! Earum, fugit! Voluptas minus facere, laborum, suscipit nobis nam veritatis. Ipsam.&quot;</blockquote>
+		<div class="col-md-8 col-md-offset-2">
+			<blockquote class="blockquote lorem"><i>&quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque cumque natus repellat rem sequi aspernatur. Sequi libero minima, molestias! Earum, fugit! Voluptas minus facere, laborum, suscipit nobis nam veritatis. Ipsam.&quot;</i></blockquote>
+		</div>
+		<div class="clearfix"></div>
 		<h4>Jane Hunt</h4>
-		<img class="img-responsive" src="images/people.png" alt="our team">
+		<img id="peopleImg" class="img-responsive" src="images/people.png" alt="our team">
 		<h2>Say Hi &amp; Get In Touch</h2>
 		<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum impedit tenetur necessitatibus.</p>
 		<ul id="social-media">
