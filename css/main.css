@@ -128,8 +128,29 @@ li a i{
 		margin: 5px 0;
 	}
 }
+@media (max-width: 600px){
+	#header{
+		background: none;
+	}
+	#header:after{
+		content: " ";
+		position: absolute;
+		height: 100%;
+		width: 150%;
+		top: -60%;
+		left: -50%;
+		transform: translateX(10%) translateY(50%);
+		background-image: url(../images/header.jpg);
+		z-index: -1;
+		/* background: red; */
+	}
+}
 @media (max-width: 400px){
 	.social-media li{
 		display: block;
+	}
+	#header:after{
+		width: 200%;
+		transform: translateX(-10%) translateY(50%);
 	}
 }
